@@ -52,7 +52,7 @@ public class Fcfs{
         }
         for(i=0;i<size;i++){
             tatAvg=tatAvg+tat[i];
-            wtAvg=wtAvg=wt[i];
+            wtAvg=wtAvg+wt[i];
         }
         double s=Double.parseDouble(String.valueOf(size));
         System.out.println("Average Turn Around Time: "+tatAvg/s);
